@@ -3,17 +3,32 @@
     margin: 0px;
 }
 
+body {
+    background-color: #101427;
+    color: white;
+}
+
 .container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 20px;
+}
+
+.d-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 #canvas {
-    height: 300px;
+    height: 400px;
     width: 500px;
-    border: 5px solid black;
+    border: 5px solid white;
     position: relative;
     box-sizing: content-box;
 }

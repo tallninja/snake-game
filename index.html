@@ -8,12 +8,23 @@
     <title>Snake Game</title>
 </head>
 <body>
-
     <div class="container">
-        <h2>Snake Game :)</h2>
+        <div class="d-flex">
+            <p id='score'>Score: 0</p>
+            <h2>Snake Game &#128009;</h2>
+            <p id='high-score'>High Score: 100</p>
+        </div>
         <div id="canvas"></div>
     </div>
-
+    <hr>
+    <div class='container'>
+        <button id='restart-button' style='margin-bottom: 15px;'>Restart</button>
+        <p>p or P => Pause</p>
+        <p>r or R => Restart</p>
+    </div>
+    <footer style='text-align: center;'>
+        Made with &#128154; by Ernest Wambua &#128513;
+    </footer>
     <script src="./js/index.js"></script>
 </body>
 </html>
