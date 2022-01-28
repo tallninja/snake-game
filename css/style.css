@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#canvas {
+    height: 300px;
+    width: 500px;
+    border: 5px solid black;
+    position: relative;
+    box-sizing: content-box;
+}
+
+.pixel {
+    background-color: #d4d4d4;
+    position: absolute;
+}
